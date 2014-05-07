@@ -25,7 +25,7 @@ if [ "$1" != noconf ] ; then
             --oldincludedir=${GCW0TOOLCHAINROOT}/usr/mipsel-gcw0-linux-uclibc/sysroot/usr/include/ \
             --with-sdl-prefix=${GCW0TOOLCHAINROOT}/usr/mipsel-gcw0-linux-uclibc/sysroot/usr \
             --host=mipsel-linux \
-            --prefix=/mnt/freedroid \
+            --prefix=/mnt/Freedroid \
             CFLAGS="-O2 -G0 -march=mips32 -mtune=mips32 -pipe -fomit-frame-pointer -fexpensive-optimizations -frename-registers"
 fi
 
