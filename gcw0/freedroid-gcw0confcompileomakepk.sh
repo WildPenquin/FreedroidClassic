@@ -6,7 +6,7 @@ GCW0TOOLCHAINROOT="/opt/gcw0-toolchain/"
 ### These should not be changed for the default automatic cretion of an OPK...
 GCW0WORKDIR="`pwd`"/"GCWZeroInstall"
 export DESTDIR="${GCW0WORKDIR}"/opkroot
-FREEDROIDSQUASHROOT="$DESTDIR"/mnt/freedroid
+FREEDROIDSQUASHROOT="$DESTDIR"/mnt/Freedroid
 FREEDROIDDESKTOPENTRY=`pwd`/gcw0/default.gcw0.desktop
 FREEDROIDGCW0MISSIONFILE=`pwd`/gcw0/Paradroid.mission
 FREEDROIDMANUAL=`pwd`/gcw0/FreeDroid-gcw0-manualandlicense.txt
